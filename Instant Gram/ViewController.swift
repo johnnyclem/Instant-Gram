@@ -8,11 +8,13 @@
 
 import UIKit
 
-// Add the necessary protocols for the photo picker
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+// Add the necessary protocols for the photo picker and collection view
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UICollectionViewDataSource, UICollectionViewDelegate {
 
     // Stores the photos for the collection view
     var photos = [UIImage]()
+    // The collection view displays all of the photos
+    @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,6 +51,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 // Add the original image to the photos array
                 self.photos.append(image)
             }
+            // Reload the collectionview data source so the new image displays
+            self.collectionView.reloadData()
         }
     }
     
@@ -71,5 +75,27 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         // Return the filtered image
         return filteredImage
     }
+    
+    //MARK: UICollectionViewDataSource
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        // Create a collectionview cell using our string identifier from the storyboard
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("photoCell", forIndexPath: indexPath) as! PhotoCell
+        // Pull out the image for this row
+        let image = self.photos[indexPath.row]
+        // Assign the image to the cell
+        cell.imageView.image = image
+        // Return the configured cell
+        return cell
+    }
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        // We want one cell for each photo
+        return self.photos.count
+    }
+}
+
+class PhotoCell: UICollectionViewCell {
+    // Displays the image for the cell
+    @IBOutlet weak var imageView: UIImageView!
 }
 
