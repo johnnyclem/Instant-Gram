@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Social
 
 // Add the necessary protocols for the photo picker and collection view
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UICollectionViewDataSource, UICollectionViewDelegate {
@@ -91,6 +92,16 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // We want one cell for each photo
         return self.photos.count
+    }
+    
+    //MARK: UICollectionViewDelegate
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        // Pull the selected photo from the array 
+        let image = self.photos[indexPath.row]
+        // Create the photo sharing view controller
+        let activityController = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+        // Present the activity controller
+        self.presentViewController(activityController, animated: true, completion: nil)
     }
 }
 
