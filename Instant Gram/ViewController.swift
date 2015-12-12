@@ -41,8 +41,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         picker.dismissViewControllerAnimated(true) { () -> Void in
             // Unwrap the edited image from the editingInfo dictionary
             if let editedImage = editingInfo?[UIImagePickerControllerEditedImage] as? UIImage {
+                // Apply the noir filter to the image
+                let filteredImage = self.filterImage(editedImage)
                 // Add the edited image to the photos array
-                self.photos.append(editedImage)
+                self.photos.append(filteredImage)
             } else {
                 // Add the original image to the photos array
                 self.photos.append(image)
@@ -55,5 +57,19 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         picker.dismissViewControllerAnimated(true, completion: nil)
     }
     
+    func filterImage(image: UIImage) -> UIImage {
+        // Convert the UIKit Image into a CoreImage Image
+        guard let ciImage = CIImage(image: image) else { return image }
+        // Create the Core Image filter
+        guard let ciFilter = CIFilter(name: "CIPhotoEffectNoir") else { return image }
+        // Configure the filter 
+        ciFilter.setValue(ciImage, forKey: kCIInputImageKey)
+        // Get the output Core Image image
+        guard let outputImage = ciFilter.outputImage else { return image }
+        // Create a new UIImage from the filtered CIImage
+        let filteredImage = UIImage(CIImage: outputImage)
+        // Return the filtered image
+        return filteredImage
+    }
 }
 
