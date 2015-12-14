@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF71507D1C1BEBE2000561BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71507C1C1BEBE2000561BE /* AppDelegate.swift */; };
-		EF71507F1C1BEBE2000561BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71507E1C1BEBE2000561BE /* ViewController.swift */; };
-		EF7150821C1BEBE2000561BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7150801C1BEBE2000561BE /* Main.storyboard */; };
-		EF7150841C1BEBE2000561BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7150831C1BEBE2000561BE /* Assets.xcassets */; };
-		EF7150871C1BEBE2000561BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7150851C1BEBE2000561BE /* LaunchScreen.storyboard */; };
+		EFC9AF7C1C1CB2E400CAF26C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC9AF7B1C1CB2E400CAF26C /* AppDelegate.swift */; };
+		EFC9AF7E1C1CB2E400CAF26C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC9AF7D1C1CB2E400CAF26C /* ViewController.swift */; };
+		EFC9AF811C1CB2E400CAF26C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC9AF7F1C1CB2E400CAF26C /* Main.storyboard */; };
+		EFC9AF831C1CB2E400CAF26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC9AF821C1CB2E400CAF26C /* Assets.xcassets */; };
+		EFC9AF861C1CB2E400CAF26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC9AF841C1CB2E400CAF26C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF7150791C1BEBE2000561BE /* Instant Gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instant Gram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF71507C1C1BEBE2000561BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF71507E1C1BEBE2000561BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF7150811C1BEBE2000561BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF7150831C1BEBE2000561BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF7150861C1BEBE2000561BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EF7150881C1BEBE2000561BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC9AF781C1CB2E400CAF26C /* Instant Gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instant Gram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC9AF7B1C1CB2E400CAF26C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFC9AF7D1C1CB2E400CAF26C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFC9AF801C1CB2E400CAF26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFC9AF821C1CB2E400CAF26C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFC9AF851C1CB2E400CAF26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFC9AF871C1CB2E400CAF26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF7150761C1BEBE2000561BE /* Frameworks */ = {
+		EFC9AF751C1CB2E400CAF26C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF7150701C1BEBE2000561BE = {
+		EFC9AF6F1C1CB2E400CAF26C = {
 			isa = PBXGroup;
 			children = (
-				EF71507B1C1BEBE2000561BE /* Instant Gram */,
-				EF71507A1C1BEBE2000561BE /* Products */,
+				EFC9AF7A1C1CB2E400CAF26C /* Instant Gram */,
+				EFC9AF791C1CB2E400CAF26C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF71507A1C1BEBE2000561BE /* Products */ = {
+		EFC9AF791C1CB2E400CAF26C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF7150791C1BEBE2000561BE /* Instant Gram.app */,
+				EFC9AF781C1CB2E400CAF26C /* Instant Gram.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF71507B1C1BEBE2000561BE /* Instant Gram */ = {
+		EFC9AF7A1C1CB2E400CAF26C /* Instant Gram */ = {
 			isa = PBXGroup;
 			children = (
-				EF71507C1C1BEBE2000561BE /* AppDelegate.swift */,
-				EF71507E1C1BEBE2000561BE /* ViewController.swift */,
-				EF7150801C1BEBE2000561BE /* Main.storyboard */,
-				EF7150831C1BEBE2000561BE /* Assets.xcassets */,
-				EF7150851C1BEBE2000561BE /* LaunchScreen.storyboard */,
-				EF7150881C1BEBE2000561BE /* Info.plist */,
+				EFC9AF7B1C1CB2E400CAF26C /* AppDelegate.swift */,
+				EFC9AF7D1C1CB2E400CAF26C /* ViewController.swift */,
+				EFC9AF7F1C1CB2E400CAF26C /* Main.storyboard */,
+				EFC9AF821C1CB2E400CAF26C /* Assets.xcassets */,
+				EFC9AF841C1CB2E400CAF26C /* LaunchScreen.storyboard */,
+				EFC9AF871C1CB2E400CAF26C /* Info.plist */,
 			);
 			path = "Instant Gram";
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF7150781C1BEBE2000561BE /* Instant Gram */ = {
+		EFC9AF771C1CB2E400CAF26C /* Instant Gram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF71508B1C1BEBE2000561BE /* Build configuration list for PBXNativeTarget "Instant Gram" */;
+			buildConfigurationList = EFC9AF8A1C1CB2E400CAF26C /* Build configuration list for PBXNativeTarget "Instant Gram" */;
 			buildPhases = (
-				EF7150751C1BEBE2000561BE /* Sources */,
-				EF7150761C1BEBE2000561BE /* Frameworks */,
-				EF7150771C1BEBE2000561BE /* Resources */,
+				EFC9AF741C1CB2E400CAF26C /* Sources */,
+				EFC9AF751C1CB2E400CAF26C /* Frameworks */,
+				EFC9AF761C1CB2E400CAF26C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +81,25 @@
 			);
 			name = "Instant Gram";
 			productName = "Instant Gram";
-			productReference = EF7150791C1BEBE2000561BE /* Instant Gram.app */;
+			productReference = EFC9AF781C1CB2E400CAF26C /* Instant Gram.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF7150711C1BEBE2000561BE /* Project object */ = {
+		EFC9AF701C1CB2E400CAF26C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = learnswift.io;
 				TargetAttributes = {
-					EF7150781C1BEBE2000561BE = {
-						CreatedOnToolsVersion = 7.1.1;
+					EFC9AF771C1CB2E400CAF26C = {
+						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = EF7150741C1BEBE2000561BE /* Build configuration list for PBXProject "Instant Gram" */;
+			buildConfigurationList = EFC9AF731C1CB2E400CAF26C /* Build configuration list for PBXProject "Instant Gram" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = EF7150701C1BEBE2000561BE;
-			productRefGroup = EF71507A1C1BEBE2000561BE /* Products */;
+			mainGroup = EFC9AF6F1C1CB2E400CAF26C;
+			productRefGroup = EFC9AF791C1CB2E400CAF26C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF7150781C1BEBE2000561BE /* Instant Gram */,
+				EFC9AF771C1CB2E400CAF26C /* Instant Gram */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EF7150771C1BEBE2000561BE /* Resources */ = {
+		EFC9AF761C1CB2E400CAF26C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF7150871C1BEBE2000561BE /* LaunchScreen.storyboard in Resources */,
-				EF7150841C1BEBE2000561BE /* Assets.xcassets in Resources */,
-				EF7150821C1BEBE2000561BE /* Main.storyboard in Resources */,
+				EFC9AF861C1CB2E400CAF26C /* LaunchScreen.storyboard in Resources */,
+				EFC9AF831C1CB2E400CAF26C /* Assets.xcassets in Resources */,
+				EFC9AF811C1CB2E400CAF26C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF7150751C1BEBE2000561BE /* Sources */ = {
+		EFC9AF741C1CB2E400CAF26C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF71507F1C1BEBE2000561BE /* ViewController.swift in Sources */,
-				EF71507D1C1BEBE2000561BE /* AppDelegate.swift in Sources */,
+				EFC9AF7E1C1CB2E400CAF26C /* ViewController.swift in Sources */,
+				EFC9AF7C1C1CB2E400CAF26C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF7150801C1BEBE2000561BE /* Main.storyboard */ = {
+		EFC9AF7F1C1CB2E400CAF26C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF7150811C1BEBE2000561BE /* Base */,
+				EFC9AF801C1CB2E400CAF26C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EF7150851C1BEBE2000561BE /* LaunchScreen.storyboard */ = {
+		EFC9AF841C1CB2E400CAF26C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF7150861C1BEBE2000561BE /* Base */,
+				EFC9AF851C1CB2E400CAF26C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EF7150891C1BEBE2000561BE /* Debug */ = {
+		EFC9AF881C1CB2E400CAF26C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -198,7 +198,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -207,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		EF71508A1C1BEBE2000561BE /* Release */ = {
+		EFC9AF891C1CB2E400CAF26C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -245,49 +245,54 @@
 			};
 			name = Release;
 		};
-		EF71508C1C1BEBE2000561BE /* Debug */ = {
+		EFC9AF8B1C1CB2E400CAF26C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Instant Gram/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.learnswift.Instant-Gram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		EF71508D1C1BEBE2000561BE /* Release */ = {
+		EFC9AF8C1C1CB2E400CAF26C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Instant Gram/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.learnswift.Instant-Gram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF7150741C1BEBE2000561BE /* Build configuration list for PBXProject "Instant Gram" */ = {
+		EFC9AF731C1CB2E400CAF26C /* Build configuration list for PBXProject "Instant Gram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF7150891C1BEBE2000561BE /* Debug */,
-				EF71508A1C1BEBE2000561BE /* Release */,
+				EFC9AF881C1CB2E400CAF26C /* Debug */,
+				EFC9AF891C1CB2E400CAF26C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF71508B1C1BEBE2000561BE /* Build configuration list for PBXNativeTarget "Instant Gram" */ = {
+		EFC9AF8A1C1CB2E400CAF26C /* Build configuration list for PBXNativeTarget "Instant Gram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF71508C1C1BEBE2000561BE /* Debug */,
-				EF71508D1C1BEBE2000561BE /* Release */,
+				EFC9AF8B1C1CB2E400CAF26C /* Debug */,
+				EFC9AF8C1C1CB2E400CAF26C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF7150711C1BEBE2000561BE /* Project object */;
+	rootObject = EFC9AF701C1CB2E400CAF26C /* Project object */;
 }
